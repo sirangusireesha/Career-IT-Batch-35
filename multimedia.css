@@ -3,5 +3,6 @@ audio,video{
     padding:30px;
     border-radius:30px;
     margin:30px;
+    width:40%;
     display: block; /*inline-block*/ 
 }
