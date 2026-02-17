@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms with CSS</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <fieldset>
+            <legend>REGISTRATION</legend>
+            <form name="regForm">
+                <table>
+                    <!--FIRST NAME-->
+                    <tr>
+                        <td>
+                            <label>First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="fname" placeholder="enter first name">
+                        </td>
+                        <td>
+                            <span>(***enter valid first name***)</span>
+                        </td>
+                    </tr>
+                     <!--LAST NAME-->
+                    <tr>
+                        <td>
+                            <label>Last Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="lname" placeholder="enter last name">
+                        </td>
+                        <td>
+                            <span>(***enter valid last name***)</span>
+                        </td>
+                    </tr>
+                     <!--PASSWORD-->
+                    <tr>
+                        <td>
+                            <label>Password</label>
+                        </td>
+                        <td>
+                            <input type="pasword" name="pwd" placeholder="enter password">
+                        </td>
+                        <td>
+                            <span>(***enter valid password***)</span>
+                        </td>
+                    </tr>
+                     <!--CONFIRM NAME-->
+                    <tr>
+                        <td>
+                            <label>Conf Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="cpwd" placeholder="enter confirm password">
+                        </td>
+                        <td>
+                            <span>(***password and confirm password must be same***)</span>
+                        </td>
+                    </tr>
+                     <!--EMAIL-->
+                    <tr>
+                        <td>
+                            <label>Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="uemail" placeholder="enter email">
+                        </td>
+                        <td>
+                            <span>(***please enter valid email***)</span>
+                        </td>
+                    </tr>
+                     <!--GENDER-->
+                    <tr>
+                        <td>
+                            <label>GENDER</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                        </td>
+                        <td>
+                            <span>(***select gender***)</span>
+                        </td>
+                    </tr>
+                     <!--LANGUAGES-->
+                    <tr>
+                        <td>
+                            <label>languages</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="languages" value="c">C
+                            <input type="checkbox" name="languages" value="c++">c++
+                        </td>
+                        <td>
+                            <span>(***select at least one language***)</span>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="languages" value="java">Java
+                            <input type="checkbox" name="languages" value="python">Python
+                        </td>
+                        <td>
+                            <span>(***select at least one language***)</span>
+                        </td>
+                    </tr>
+                    <!--COUNTRY-->
+                    <tr>
+                        <td>
+                            <label>COUNTRY</label>
+                        </td>
+                        <td>
+                            <select name="country">
+                                <option value="">select country</option>
+                                <option value="ind">India</option>
+                                <option value="usa">usa</option>
+                                <option value="japan">japan</option>
+                                <option value="aus">saus</option>
+                                <option value="sri">select country</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!---DOB-->
+                    <tr>
+                        <td>
+                            <label>DOB</label>
+                        </td>
+                        <td>
+                            <input type="date" name="udob">
+                        </td>
+                        <td>
+                            <span>(***enter valid dob***)</span>
+                        </td>
+                    </tr>
+                    <!--TIME-->
+                    <tr>
+                        <td>
+                            <label>Pref Time</label>
+                        </td>
+                         <td>
+                            <input type="time" name="ptime">
+                        </td>
+                        <td>
+                            <span>(***enter valid pretime***)</span>
+                        </td>
+                    </tr>
+                     <!--COLOR-->
+                    <tr>
+                        <td>
+                            <label>Fav Color</label>
+                        </td>
+                         <td>
+                            <input type="color" name="favcolor">
+                        </td>
+                        <td>
+                            <span>(***choose favcolor***)</span>
+                        </td>
+                    </tr>
+                     <!--UPLOAD-->
+                    <tr>
+                        <td>
+                            <label>Resume</label>
+                        </td>
+                         <td>
+                            <input type="file" name="resume">
+                        </td>
+                        <td>
+                            <span>(***enter pdf format***)</span>
+                        </td>
+                    </tr>
+                     <!--ADDRESS-->
+                    <tr>
+                        <td>
+                            <label>Address</label>
+                        </td>
+                         <td>
+                            <textarea name="addr" cols="" rows=""></textarea>
+                        </td>
+                        <td>
+                            <span>(***enter valid address***)</span>
+                        </td>
+                    </tr>
+                     <!--SUBMIT & RESET-->
+                    <tr>
+                        <td>
+                            <input type="submit" value="Register">
+                        </td>
+                         <td>
+                            <input type="reset" value="Clear">
+                        </td>
+                    </tr>
+             </table>
+            </form>
+        </fieldset>
+    </body>
+</html>
