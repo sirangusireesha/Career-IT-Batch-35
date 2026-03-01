@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            .parent{
+                height: 100vh;
+                color: white;
+                display: grid;
+                gap: 10px;
+                grid-template-columns: 20% 60% 20%;
+                grid-template-rows: 10% 80% 10%;
+                text-align: center;
+            }
+            .header{
+                background-color: blue;
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .navbar{
+                background-color: skyblue;
+                grid-column:1/2;
+                grid-row:2/3;
+            }
+            .content{
+                background-color: gray;
+                grid-column:2/3;
+                grid-row:2/3;
+            }
+            .aside{
+                background-color: skyblue;
+                grid-column:3/4;
+                grid-row:2/3;
+            }
+            .footer{
+                background-color: blue;
+                grid-column:1/4;
+                grid-row:3/4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">Header</div>
+            <div class="navbar">Navbar</div>
+            <div class="content">Content</div>
+            <div class="aside">Aside</div>
+            <div class="footer">Footer</div>
+        </div>
+    </body>
+</html>

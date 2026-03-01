@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RWD</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .parent{
+                height: 100vh;
+            }
+            .header{
+                height:15%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .header>img{
+                width: 10vw;
+            }
+            .menu{
+                display: flex;
+                gap: 20px;
+                margin-right: 20px;
+            }
+            .menu>a{
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+            }
+            .menu>a:hover{
+                color: orange;
+            }
+            @media(max-width:556px){
+                .menu{
+                    display: none;
+                }
+                .header{
+                    justify-content: center;
+                }
+                .header>img{
+                    width: 20vw;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">
+            <img src="amazon.png" alt="amazon">
+            <div class="menu">
+                <a href="#" class="menu_item_1">Home</a>
+                <a href="#" class="menu_item_2">About</a>
+                <a href="#" class="menu_item_3">Contact</a>
+                <a href="#" class="menu_item_4">Login</a>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

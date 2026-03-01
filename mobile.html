@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mobile</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <style>
+            .main{
+                display: flex;
+                height:100vh;
+            }
+            .mobile{
+                display: flex;
+                flex:1;
+                background-color: blue;
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY8mx09ZJxY9ku5kBHSHeynr9GuLO91ApbEw&s'); /* Replace with your image URL */
+                background-size: cover;
+                background-position: center;
+            }
+            .properties{
+                background-color:green;
+                color:black;
+                flex:1;
+            }
+            .p{
+                width:20px;
+
+            }
+            @media(max-width:776px){
+                .p{
+                    display: none;
+                }
+            }
+            .footer{
+                background-color: red;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding:20px;
+                font-size: 5vw;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">
+            <img src="python.jpg" alt="python">
+            <div class="menu">
+                <a href="#" class="menu_item_1">Home</a>
+                <a href="#" class="menu_item_2">About</a>
+                <a href="#" class="menu_item_3">Contact</a>
+                <a href="#" class="menu_item_4">Login</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mobile">
+            </div>
+                <div class="properties">
+                <h3>DELL</h3>
+                <p <i class="fa-solid fa-indian-rupee-sign"></i>10000</p>
+                <p>1TB</p>
+                <p>India</p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS flex</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            .parent{
+                display: flex;
+                height: 100vh;
+            }
+            .child1{
+                background-color: lightblue;
+                flex: 1;
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+            }
+            .child2{
+                background-color: red;
+                flex: 1;
+                display: flex;
+            }
+            .subchild1{
+                background-color: rebeccapurple;
+                flex: 1;
+            }
+             .subchild2{
+                background-color: orangered;
+                flex: 1;
+            }
+             .subchild3{
+                background-color: blue;
+                flex: 1;
+            }
+            .subchild4{
+                background-color: lavender;
+                flex: 1;
+            }
+            .subchild5{
+                background-color: pink;
+                flex: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">
+                <div class="subchild1"></div>
+                <div class="subchild2"></div>
+                <div class="subchild3"></div>
+            </div>
+             <div class="child2">
+                <div class="subchild4"></div>
+                <div class="subchild5"></div>
+             </div>
+        </div>
+    </body>
+</html>

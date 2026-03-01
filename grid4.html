@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            .parent{
+                height: 100vh;
+                color: black;
+                display: grid;
+                gap: 10px;
+                grid-template-columns: 30% 30% 40%;
+                grid-template-rows:10% 10% 80%;
+                text-align: center;
+            }
+            .header{
+                background-color: orangered;
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .search{
+                background-color: lightgreen;
+                grid-column: 1/3;
+                grid-row: 2/3;
+            }
+            .left{
+                background-color: skyblue;
+                grid-column: 1/2;
+                grid-row: 3/4;
+            }
+            .middle{
+                background-color: violet;
+                grid-column:2/3;
+                grid-row: 3/4;
+            }
+            .right{
+                background-color: red;
+                grid-column: 3/4;
+                grid-row: 2/4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">Header</div>
+            <div class="search">Search</div>
+            <div class="left">Left Sidebar</div>
+            <div class="middle">Middle Column</div>
+            <div class="right">Right SideBar</div>
+        </div>
+    </body>
+</html>

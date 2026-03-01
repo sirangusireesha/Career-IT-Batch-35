@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+            .parent{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                gap: 20px;
+                display: grid;
+                height: 100vh;
+                color: white;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-rows: 10% 31% 49% 10%;
+            }
+            .header{
+                background-color: orangered;
+                grid-column: 1/5;
+                grid-row: 1/2;
+            }
+            .small1{
+                background-color: orangered;
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+            .small2{
+                background-color: orangered;
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+            .small3{
+                background-color: orangered;
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+            .sidebar{
+                background-color: orangered;
+                grid-column: 4/5;
+                grid-row: 2/4;
+            }
+            .maincontent{
+                background-color: orangered;
+                grid-column: 1/4;
+                grid-row: 3/4;
+            }
+            .footer{
+                background-color: orangered;
+                grid-column: 1/5;
+                grid-row: 4/5;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">Header</div>
+            <div class="small1">Small box</div>
+            <div class="small2">Small box</div>
+            <div class="small3">Small box</div>
+            <div class="sidebar">Sidebar</div>
+            <div class="maincontent">Main content</div>
+            <div class="footer">Footer</div>
+        </div>
+    </body>
+</html>
