@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    
+}
+.parent{height: 100vh;
+background-color: antiquewhite; }
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: black;
+    align-items: center;
+    color: white;
+   height: 10vh;
+   
+   
+
+}
+
+.header2{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.image{
+    margin-top: -180px;
+    
+    
+}
+
+.image1{
+      position: relative;
+        left: 80px;
+         top: 250px;
+         font-size: 50px;
+         color: white;
+}
+ button:hover{
+    background-color: red;
+    
+ }
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: azure;
+    padding: 20px;
+}
+.main1{border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: lightgray;
+
+}
+
+.img1{
+    width: 650px;
+    height: 600px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+
+.sub{
+    /* margin-top: 30px; */
+    background-color: black;
+    color: white;
+    padding: 50px;
+
+
+}
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: bisque;
+    border: 1px solid black;
+}
+.f1{
+    text-align: center;
+    margin: 30px;
+}
+.f2{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.f3{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.f2>a{
+    text-decoration: none;
+
+}
